@@ -1,0 +1,9 @@
+variable "region" {}
+variable "3_tier_vpc" {}
+variable "vpc_cidr" {}
+variable "public_subnet_1_az_cidr" {}
+variable "public_subnet_2_az_cidr" {}
+variable "private_subnet_1_az_cidr" {}
+variable "private_subnet_2_az_cidr" {}
+variable "private_database_subnet_az_1_cidr" {}
+variable "private_database_subnet_az_2_cidr" {}
